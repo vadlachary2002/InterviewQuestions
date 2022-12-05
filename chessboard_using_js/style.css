@@ -1,0 +1,43 @@
+.body{
+  width:100%;
+  height:100vh;
+
+}
+.block{
+  width:50rem;
+  height:50rem ;
+  border: 10px solid black;
+  /* background-color: red; */
+}
+.black{
+  float:left;
+  display: inline;
+  width:6.25rem;
+  height:6.25rem;
+  background:black;
+}
+.white{
+  float: left;
+  display: inline;
+  width:6.25rem;
+  height:6.25rem;
+  background:white;
+}
+
+@media screen and (max-width: 540px) {
+  //this is for screen lenth max 880px futher we cane change
+  .block {
+    width:30rem;
+    height:30rem;
+  }
+  .black{
+    width:3.75rem;
+    height:3.75rem;
+    background:black;
+  }
+  .white{
+    width:3.75rem;
+    height:3.75rem;
+    background:white;
+  }
+}
